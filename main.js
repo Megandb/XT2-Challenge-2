@@ -28,9 +28,7 @@ function klok() {
 klok();
 setInterval(klok, 1000);
 
-
 var today = new Date();
-
 document.getElementById('date').innerHTML = today.getDate() + '/' + (today.getMonth()+1) + '/' + today.getFullYear();
 
 function melding() {
@@ -46,5 +44,4 @@ function melding() {
        alert("Het is tijd om te slapen");
     }
 }
-
 melding();
