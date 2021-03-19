@@ -36,9 +36,8 @@ function melding() {
     var seconds = today.getSeconds();
     var minutes = today.getMinutes();
     var hours= today.getHours();
-    var hours= today.getFullYear();
 
-    if (hours >= 9 && hours < 23){
+    if (hours >= 9 && hours < 21){
         alert("Het is tijd om op te staan");
     } else {
        alert("Het is tijd om te slapen");
